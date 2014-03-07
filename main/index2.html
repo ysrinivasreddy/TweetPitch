@@ -1,0 +1,150 @@
+<!doctype html>
+<!--[if lt IE 7 ]><html lang="en" class="no-js ie6"> <![endif]-->
+<!--[if IE 7 ]><html lang="en" class="no-js ie7"> <![endif]-->
+<!--[if IE 8 ]><html lang="en" class="no-js ie8"> <![endif]-->
+<!--[if IE 9 ]><html lang="en" class="no-js ie9"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--><html lang="en" class="no-js"> <!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<meta name="author" content="ThemeFuse">
+<meta name="keywords" content="">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Modern Touch | Index</title>
+
+<!-- main JS libs -->
+<script src="js/libs/modernizr.min.js"></script>
+<script src="js/libs/jquery-1.10.0.js"></script>
+<script src="js/libs/jquery-ui.min.js"></script>
+<script src="js/libs/bootstrap.min.js"></script>
+    <link href="css/video-js.css" rel="stylesheet">
+<script src="js/video.js"></script>
+    <link href="css/prettyPhoto.css" rel="stylesheet">
+<script src="js/jquery.prettyPhoto.js"></script>
+
+<!-- Style CSS -->
+<link href="css/bootstrap.css" media="screen" rel="stylesheet">
+<link href="style.css" media="screen" rel="stylesheet">
+<!-- scripts -->
+<script src="js/general.js"></script>
+<!--[if lt IE 9]><script src="js/respond.min.js"></script><![endif]-->
+<!--[if gte IE 9]>
+<style type="text/css">
+    .gradient {filter: none !important;}
+</style>
+<![endif]-->
+</head>
+
+<body>
+<div class="body_wrap">
+    <div class="container">
+        <div class="content " role="main">
+        <div class="row">
+        <div class="col-sm-5">
+            
+                     <!-- Menu -->
+                    <ul class="dropdown dropdown-icons clearfix boxed boxed-green">
+                        <li class="menu-level-0 hover"><a href="index.html"><span><i class="icon-menu"></i></span></a>
+                        </li>
+                        <li class="menu-level-0"><a href="index2.html"><span><i class="glyphicon glyphicon-tower"></i></span></a>
+                        </li>
+                        <li class="menu-level-0"><a href="share.html"><span><i class="glyphicon glyphicon-thumbs-up"></i></span></a>
+                        </li>
+                        <li class="menu-level-0"><a href="submit.html"><span><i class="glyphicon glyphicon-send"></i></span></a>
+                        </li>
+                    </ul>
+                    <!--/ Menu -->
+            
+                                <!-- Image Slider -->
+                    <div class="widget-container widget-gallery boxed">
+                        <div class="inner">
+                            <div id="myCarousel" class="carousel slide" data-interval="20000">
+                                <!-- Carousel items -->
+                                <div class="carousel-inner">
+                                    <div class="active item"><a href="images/temp/post_img7.png" class="prettyPhoto" data-rel="prettyPhoto" title="Post Image"><img src="images/temp/post_img7.png" alt="" /></a></div>
+                                    <div class="item"><a href="images/temp/post_img1%20-%20Copy.png" class="prettyPhoto" data-rel="prettyPhoto" title="Post Image"><img src="images/temp/post_img1%20-%20Copy.png" alt="" /></a></div>
+                                </div>
+                                <div class="carousel-controls">
+                                    <!-- Carousel indicators -->
+                                    <ol class="carousel-indicators">
+                                        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                                        <li data-target="#myCarousel" data-slide-to="1"></li>
+                                        <li data-target="#myCarousel" data-slide-to="2"></li>
+                                    </ol>
+                                    <!-- Carousel nav -->
+                                    <a class="carousel-control left" href="#myCarousel" data-slide="prev"></a>
+                                    <a class="carousel-control right" href="#myCarousel" data-slide="next"></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--/ Image Slider -->
+            
+            
+           <div class="panel panel-primary">
+				<div class="panel-heading">
+					<h3 class="panel-title"><strong>What Is The Contest ?</strong></h3>
+
+				</div>
+				<div class="panel-body">
+                     <ul class="list-group">
+                <li class="list-group-item"> Its not the 30-seconds Elevator Pitch but the 140 characters ‘Tweet Pitch’! </li>
+
+ <li class="list-group-item">So comes the newest mantra, ‘The Tweet Pitch’. What is the core essence of your product, in 140 characters or less? How is it different from others? & What makes it unique? </li>
+
+ <li class="list-group-item">So, if you only had 140 characters to sell your idea – which characters would you choose? </li>
+                         </ul>
+                    </div>
+               </div>
+                       <div class="panel panel-primary">
+				<div class="panel-heading">
+					<h3 class="panel-title"> <strong>Participate And Win Big !</strong></h3>
+
+				</div>
+				<div class="panel-body">
+                     <ul class="list-group">
+                <li class="list-group-item"> Record your Business Idea ‘WOX’eet here and compete with the best and the brightest. </li>
+
+ <li class="list-group-item">The winner of every month will be rewarded INR 25,000 (or equivalent in US$) prize money.  </li>
+
+ <li class="list-group-item">Woxsen will record all ideas (or ‘WOX’eets) and announce the winner by the 5th of the coming month across all its electronic platforms. An individual can apply only once every month. </li>
+                         </ul>
+                    </div>
+               </div>
+            
+            
+            
+           <!-- Video Player -->
+                    <div class="video-player boxed">
+                        <div class="inner">
+                            <video id="my_video_1" class="video-js" controls loop
+                                   preload="auto" poster="images/temp/vjs-poster2.jpg"
+                                   data-setup="{}">
+                                <source src="http://test.themefuse.com/artiom/galapagos.mp4" type='video/mp4'>
+                            </video>
+                            <script>
+                                _V_("my_video_1").ready(function(){
+                                    var myPlayer = this;
+                                    var aspectRatio = 330/512;
+                                    var width = document.getElementById(myPlayer.id).parentElement.offsetWidth;
+                                    myPlayer.width(width).height( width * aspectRatio );
+
+                                    function resizeVideoJS(){
+                                        var width = document.getElementById(myPlayer.id).parentElement.offsetWidth;
+                                        myPlayer.width(width).height( width * aspectRatio );
+                                    }
+                                    resizeVideoJS();
+                                    window.onresize = resizeVideoJS;
+                                });
+                            </script>
+                        </div>
+                    </div>
+                    <!--/ Video Player -->
+            </div>
+            </div>
+            </div>
+        <!--/ content -->
+    </div>
+    <!--/ container -->
+</div>
+</body>
+</html>
